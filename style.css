@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F6F9FC;
+}
+
+nav[data-test-id="navbar"] {
+    height: 70px;
+    justify-content: space-between;
+    padding-right: 48px;
+    padding-left: 48px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 16px 0 #32326412;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    color: #262B40;
+    text-decoration: none;
+}
+
+.dot {
+    color: #36C1CB;
+}
+
+ul[data-test-id="links-container"] {
+    gap: 32px;
+    display: flex;
+    list-style: none;
+}
+
+ul[data-test-id="links-container"] li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    color: #222222;
+    text-decoration: none;
+}
